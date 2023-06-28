@@ -1,0 +1,8 @@
+:root{
+    --plano-de-fundo:#D38686;
+    --plano-de-fundo-cabecalho:#450D0D;
+}
+
+body{
+    background-color: var(--plano-de-fundo);
+}

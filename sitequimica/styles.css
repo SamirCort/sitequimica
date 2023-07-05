@@ -1,6 +1,27 @@
+@import url("./styles/header.css");
+
+
+
 :root{
     --plano-de-fundo:#D38686;
     --plano-de-fundo-cabecalho:#450D0D;
+}
+.cabecalho__menu-hamburguer{
+    background-image: url(../sitequimica/img/Frame\ 143.png);
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+.cabecalho{
+    background-color: var(--plano-de-fundo-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
 }
 
 body{

@@ -1,0 +1,14 @@
+@import url("./styles/header.css");
+
+
+
+:root{
+    --plano-de-fundo:#D38686;
+    --plano-de-fundo-cabecalho:#450D0D;
+    --titulo-cabecalho: #EB9B00;
+}
+
+body{
+    background-color: var(--plano-de-fundo-cabecalho);
+}
+

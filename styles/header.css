@@ -1,0 +1,28 @@
+.cabecalho__menu-hamburguer{
+    background-image: url('../sitequimica/img/Frame\ 143.png');
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabecalho{
+    background-color: var(--plano-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.lista-menu{
+    position: absolute;
+    top: 100%;
+}

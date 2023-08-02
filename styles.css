@@ -3,12 +3,13 @@
 
 
 :root{
-    --plano-de-fundo:#D38686;
-    --plano-de-fundo-cabecalho:#450D0D;
+    --plano-de-fundo:#450D0D;
+    --plano-de-fundo-cabecalho:#B18888;
     --titulo-cabecalho: #EB9B00;
+    --textos: white;
 }
 
 body{
-    background-color: var(--plano-de-fundo-cabecalho);
+    background-color: white;
 }
 

@@ -1,5 +1,5 @@
 .cabecalho__menu-hamburguer{
-    background-image: url('../sitequimica/img/Frame\ 143.png');
+    background-image: url('../img/menuhamburguer.png');
     display: inline-block;
     width: 24px;
     height: 24px;
@@ -8,7 +8,7 @@
 }
 
 .cabecalho{
-    background-color: var(--plano-de-fundo);
+    background-color: var(--plano-de-fundo-cabecalho);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,12 +17,51 @@
 
 .container{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
 
-
+.container--imagem{
+    padding: 1em;
 }
 
 .lista-menu{
     position: absolute;
     top: 100%;
+    width: 70%;
+    display: none;
+
+}
+
+.container--botao:checked~.lista-menu{
+    display: block;
+}
+
+.container--botao{
+    display: none;
+}
+
+
+.lista-menu__item, .lista-menu__titulo{
+    background-color: var(--plano-de-fundo);
+    padding: 1em;
+    color: var(--textos);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.lista-menu__titulo{
+    color:var(--textos);
+    font-weight: 700;
+}
+
+.lista-menu__item{
+    text-transform:uppercase;
+}
+
+.lista-menu__link{
+    background-color: var(--textos);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
 }

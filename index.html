@@ -10,7 +10,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,700;1,900&family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
 <body>
     <header class="cabecalho">
         <div class="container">
@@ -31,9 +38,7 @@
         <li class="lista-menu__item">
             <a class="lista-menu__link" href="">ENERGIAS RENOVÁVEIS</a>
         </li>
-        <li class="lista-menu__item">
-            <a class="lista-menu__link" href="">PLÁSTICO MENOS POLUENTE</a>
-        </li>
+        <li class="lista-menu__item">450D0D
         <li class="lista-menu__item">
             <a class="lista-menu__link" href="">ENERGIA SOLAR</a>
         </li>
@@ -65,5 +70,44 @@
     
     </ul>
     </header>
+    <section class="banner">
+        <h1 class="titulo-banner">Quer saber por onde começar?</h1>
+        <p class="texto-banner">Nas reações de combustão, os combustíveis sofrem oxidação, pois perdem elétrons e seu Nox (número de oxidação) aumenta. Já o comburente, que é o oxigênio, sofre redução, pois ganha elétrons e o seu Nox diminui. Sendo assim, elas sofrem uma variação de oxirredução para a formação dos produtos.</p>
+    </section>
+    <section class="carrossel">
+        <h2>Conteúdo</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./img/informação combustão.png" alt=""></div>
+      <div class="swiper-slide"><img src="./img/informação completa.png" alt=""></div>
+      <div class="swiper-slide"><img src="./img/informação queimadas.png" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidePerView: 3,
+        pagination:{
+            el:'.swiper-pagination',
+            type: "bullets"
+        }
+      });
+    </script>
+
 </body>
 </html>

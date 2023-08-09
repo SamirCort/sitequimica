@@ -1,11 +1,12 @@
 @import url("./styles/header.css");
+@import url("./styles/banner.css");
 
 
 
 :root{
     --plano-de-fundo:#450D0D;
     --plano-de-fundo-cabecalho:#B18888;
-    --titulo-cabecalho: #EB9B00;
+    --titulo-cabecalho: #F2AA93;
     --textos: white;
 }
 

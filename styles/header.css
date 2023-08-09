@@ -50,7 +50,7 @@
 }
 
 .lista-menu__titulo{
-    color:var(--textos);
+    color:var(--titulo-cabecalho);
     font-weight: 700;
 }
 
@@ -65,3 +65,4 @@
     background-clip: text;
 
 }
+

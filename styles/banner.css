@@ -1,0 +1,19 @@
+.banner{
+    background-color: var(--plano-de-fundo);
+    color: var(--textos);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.titulo-banner{
+    font-size: larger;
+    color: var(--titulo-cabecalho);
+    font-family: 'Asap', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5em 0em;
+}
+
+.texto-banner{
+    font-family: 'Poppins', sans-serif;
+}
+

@@ -21,3 +21,25 @@
     position: initial;
     margin: 0.5em 0;
 }
+
+.card-descricao{
+    background-color: var(--plano-de-fundo-cabecalho);
+    padding: 10px 10px;
+}
+
+.descricao--h{
+    color: white;
+    text-align: center;
+}
+
+.descricao--p{
+    color: black;
+    text-align: center;
+}
+
+.descricao--imagem{
+    background-color: #450D0D;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}

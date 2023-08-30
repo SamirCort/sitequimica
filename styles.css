@@ -12,6 +12,6 @@
 }
 
 body{
-    background-color: white;
+    background-color:var(--plano-de-fundo-cabecalho);
 }
 

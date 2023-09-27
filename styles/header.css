@@ -100,4 +100,9 @@
     .opcoes-botao{
         display: none;
     }
+    .lista-menu__item:hover>.lista-menu__link{
+        -webkit-text-fill-color: var(--plano-de-fundo-cabecalho);
+        text-decoration: none;
+    }
+    
 }
